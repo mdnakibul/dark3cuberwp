@@ -1,0 +1,162 @@
+Menu
+
+<ul class="navbar-nav">
+	<li class="nav-item">
+		<a href="#" class="nav-link active">Home</a>
+	</li>
+	<li class="nav-item">
+		<a href="#" class="nav-link">About</a>
+	</li>
+	<li class="nav-item">
+		<a href="#" class="nav-link">Page</a>
+	</li>
+	<li class="nav-item dropdown">
+		<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+			<div class="dropdown-menu mt-3">
+				<a href="#" class="dropdown-item">DD Item</a>
+				<a href="#" class="dropdown-item">DD Item</a>
+				<a href="#" class="dropdown-item">DD Item</a>
+				<a href="#" class="dropdown-item">DD Item</a>
+			</div>
+	</li>
+	<li class="nav-item">
+		<a href="#" class="nav-link">Gallery </a>
+	</li>					
+	<li class="nav-item">
+		<a href="#" class="nav-link">Link Text</a>
+	</li>					
+	<li class="nav-item">
+		<a href="#" class="nav-link">Link Text</a>
+	</li>					
+	<li class="nav-item">
+		<a href="#" class="nav-link">Link Text</a>
+	</li>					
+</ul>
+
+Blog Posts
+
+<div class="col-md-4">
+	<div class="blog-item">
+		<h2>Indonectetus facilis leo nibh</h2>
+		<img src="./img/blog.jpg" alt="">
+		<p>
+			Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper.
+			Anter dumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa. 
+		</p>
+		<p>
+			Condimentumfelis et amet tellent quisquet a leo lacus nec augue accumsan. 
+			Sagittislaorem dolor ipsum at urna et pharetium malesuada nis consectus odio.
+		</p>
+		<a href="#">Continue Reading »</a>
+	</div>
+</div>
+<div class="col-md-4">
+	<div class="blog-item">
+		<h2>Indonectetus facilis leo nibh</h2>
+		<img src="./img/blog.jpg" alt="">
+		<p>
+			Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper.
+			Anter dumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa. 
+		</p>
+		<p>
+			Condimentumfelis et amet tellent quisquet a leo lacus nec augue accumsan. 
+			Sagittislaorem dolor ipsum at urna et pharetium malesuada nis consectus odio.
+		</p>
+		<a href="#">Continue Reading »</a>
+	</div>
+</div>
+<div class="col-md-4">
+	<div class="blog-item">
+		<h2>Indonectetus facilis leo nibh</h2>
+		<img src="./img/blog.jpg" alt="">
+		<p>
+			Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper.
+			Anter dumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa. 
+		</p>
+		<p>
+			Condimentumfelis et amet tellent quisquet a leo lacus nec augue accumsan. 
+			Sagittislaorem dolor ipsum at urna et pharetium malesuada nis consectus odio.
+		</p>
+		<a href="#">Continue Reading »</a>
+	</div>
+</div>
+
+
+Sidebar
+
+
+<div class="col-md-3">
+	<div class="footer-block services">
+		<h2>Services</h2>
+		<ul>
+			<li><a href="#">Lorem ipsum dolor</a></li>
+			<li><a href="#">Suspendisse in neque</a></li>
+			<li><a href="#">Praesent et eros</a></li>
+			<li><a href="#">Lorem ipsum dolor</a></li>
+			<li><a href="#">Suspendisse in neque</a></li>
+		</ul>
+	</div>
+</div> 
+<div class="col-md-3">
+	<div class="footer-block services">
+		<h2>Title Text</h2>
+		<ul>
+			<li><a href="#">Lorem ipsum dolor</a></li>
+			<li><a href="#">Suspendisse in neque</a></li>
+			<li><a href="#">Praesent et eros</a></li>
+			<li><a href="#">Lorem ipsum dolor</a></li>
+			<li><a href="#">Suspendisse in neque</a></li>
+		</ul>
+	</div>
+</div> 
+<div class="col-md-3">
+	<div class="footer-block services">
+		<h2>Title Text</h2>
+		<ul>
+			<li><a href="#">Lorem ipsum dolor</a></li>
+			<li><a href="#">Suspendisse in neque</a></li>
+			<li><a href="#">Praesent et eros</a></li>
+			<li><a href="#">Lorem ipsum dolor</a></li>
+			<li><a href="#">Suspendisse in neque</a></li>
+		</ul>
+	</div>
+</div>
+
+Slider
+
+<!--<div class="carousel-item active">
+			<img src="http://localhost/dark3cuber/wp-content/uploads/2020/08/nature-1.jpg" alt="" class="caro-image" />
+			<div class="carousel-caption ">
+				<h2>1. Indonectetus facilis leo nibh</h2>
+				<p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus  semper. Anterdu m
+					s dui urna consequam ac nisl nullam ligula vestassa.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="http://localhost/dark3cuber/wp-content/uploads/2020/08/nature-2.jpg" alt="" class="caro-image" />
+			<div class="carousel-caption ">
+				<h2>2. Indonectetus facilis leo nibh</h2>
+				<p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus  semper. Anterdu m
+					s dui urna consequam ac nisl nullam ligula vestassa.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="http://localhost/dark3cuber/wp-content/uploads/2020/08/nature-3.jpg"" alt="" class="caro-image" />
+			<div class="carousel-caption ">
+				<h2>3. Indonectetus facilis leo nibh</h2>
+				<p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus  semper. Anterdu m
+					s dui urna consequam ac nisl nullam ligula vestassa.</p>
+			</div>
+		</div>	-->		
+		
+		
+		
+		
+		
+		<?php $count = 0; ?>
+		 <?php foreach($slider as $slide): ?>
+		 <div class="carousel-item <?php echo ($count == 0) ? 'active' : ''; ?>">
+			<img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($slide->ID)) ?>" class="img-fluid"/>
+		</div>
+		<?php $count++; ?>
+		<?php endforeach; ?>

@@ -1,0 +1,240 @@
+/*
+Theme Name : Dark3Cuber
+Version:1.0
+Author: Md Nakibul Hosen Nahid
+Author URI: https://www.github.com/mdnakibul
+Description: This is a theme for learning purpose. The main PSD template is downloaded from template.io. I convert the psd template to html and now I am converting it to a custom wordpress theme.
+*/
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times;
+}
+body{
+    background: #232323;
+}
+/* Topbar styles(Above Navigation) */
+section.topBar {
+    width: 100%;
+    height: auto;
+    background: #232323;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+}
+
+input#search,input.uname {
+    width: 250px;
+    height: 25px;
+    background: transparent;
+    border: 1px solid #363636;
+    color: #4c4c4c;
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 7px;
+}
+input.searchBtn,input.loginBtn {
+    width: 80px;
+    height: 26px;
+    background: #676767;
+    border: none;
+    color: #000;
+    font-family: Verdana;
+    font-size: 12px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+input.uname{
+    width:165px;
+}
+input.loginBtn{
+    width: 80px;
+}
+
+/* Banner and logo area styles  */
+.banner-image {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #4c4c4c;
+}
+.banner-image p {
+    color: #999999;
+     margin: auto; 
+    padding-top: 7px;
+    font-size: 24px;
+    margin: 0 !important;
+    text-align: center;
+}
+
+/* Navigation styles  */
+.navbar{
+    width: 100%;
+    margin-top: 35px;
+    padding: 9px 0px;
+}
+
+li.nav-item{
+    margin: 0px 28px;
+}
+a.nav-link {
+    font-size: 18px;
+    color: #ffffff;
+}
+button.navbar-toggler{
+    color: #ddd;
+    font-size: 21px
+}
+/* Carousel Styles  */
+section.carouselArea{
+    border: 1px solid #4c4c4c;
+    padding-bottom: 20px;
+}
+.caro-image{
+    width: 100%;
+    height: 400px;
+}
+.carousel-caption {
+    background: black;
+    text-align: left;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+/* Team Section Styles  */
+
+.team h2 {
+    color: #666666;
+    font-size: 26px;
+    padding: 20px 0px;
+}
+.member {
+    display: inline-block;
+    margin: 0px 25px;
+}
+.member img{
+    outline: 2px solid #4f4f4f;
+    outline-offset: 5px;
+	width:100%;
+	height:auto;
+	max-width:250px;
+}
+p.description {
+    font-size: 12px;
+    color: #d44d25;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana;
+    margin-top: 15px;
+    padding: 5px;
+    background: #1e1e1e;
+}
+p.description a{
+    color: #d44d25;
+}
+
+/* Blog Style  */
+.blog-item a.post-title{
+	width:100%;
+	height:auto;
+	display:inline-block;
+}
+.blog-item h2 {
+    color: #666666;
+    font-size: 20px;
+    padding: 10px;
+}
+.blog-item .featured-image img {
+    border-top: 2px solid #4c4c4c;
+    padding-top: 15px;
+    width: 100%;
+    height: auto;
+	margin-bottom:20px;
+}
+.blog-item p {
+    font-size: 12px;
+    color: #cccccc;
+    padding-top: 10px;
+}
+.blog-item a {
+    color: #f35425;
+    font-size: 13px;
+    font-family: Verdana;
+    font-weight: 600;
+    background: #1e1e1e;
+    padding: 5px 10px;
+}
+.featured-image img.wp-post-image{
+	width:100%;
+	height:auto;
+}
+/* Footer Styles  */
+section.footer {
+    background: #2d2d2f;
+    margin-top: 35px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: white;
+}
+.footer-block h2 {
+    color: #98989a;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #98989a;
+}
+.footer-block p {
+    color: #98989a;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.footer-block input[type="text"] {
+    height: 25px;
+    width: 210px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.newsletter input[type="submit"]{
+    height: 25px;
+    width: 40px;
+}
+.newsletter a{
+    color: #98989a;
+    font-size: 12px;
+}
+.footer-block.services {
+    margin-left: 20px;
+}
+
+.footer-block.services ul li {
+    list-style: none;
+}
+
+.footer-block.services ul li a {
+    color: #f35425;
+    font-family: Verdana;
+    font-size: 12px;
+}
+p.cr,p.credit {
+    font-size: 12px;
+    text-align: left;
+    font-family: verdana;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.comment-author.vcard img {
+    height: 32px;
+    width: 32px;
+}
+h3#comments,h3#reply-title {
+    color: #ddd;
+    margin-bottom: 20px;
+}
+p.comment-form-comment label {
+    font-size: 18px;
+}
+p.form-submit input#submit {
+    padding: 5px;
+    font-size: 16px;
+}

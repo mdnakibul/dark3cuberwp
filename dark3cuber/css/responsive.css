@@ -1,0 +1,26 @@
+@media screen and (max-width:991px) and (min-width:768px){
+    input#search{
+        width: 70%;
+    }
+    .footer-block input[type="text"]{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:767px) {
+    .login{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:575px) {
+    .logo{
+        padding: 20px 0px 0px 20px;
+    }
+    .team h2{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:991px){
+    .footer-block input[type="text"]{
+       
+    }
+}
